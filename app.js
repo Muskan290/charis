@@ -15,10 +15,8 @@ new fullpage('#fullpage',{
             .fromTo(description,0.5,{y:'50', opacity:0}, {y:0 , opacity:1})
             .fromTo(bags[0],1,{opacity: 0},{opacity:1})
             .fromTo(bags[1],1,{opacity: 0},{opacity:1})
-            .fromTo(bags[2],1,{opacity: 0},{opacity:1})
-            .fromTo(bags[0],1,{opacity: 0},{opacity:1})     
-            .fromTo(bags[1],1,{opacity: 0},{opacity:1})     
-            .fromTo(bags[2],1,{opacity: 0},{opacity:1});     
+            .fromTo(bags[2],1,{opacity: 0},{opacity:1});
+                
 
         }
         
