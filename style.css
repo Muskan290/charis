@@ -45,7 +45,7 @@ color: #000000;
 
 
 }
-.logo{
+ .logo{
         /* logo 1 */
 
         width: 77px;
@@ -54,12 +54,10 @@ color: #000000;
         height: 33px;
         
         top: 46px;
-
-        background: url(logo\ 1.png);
-}
+} 
 
 .s2{
-    background-color: #dccdbcff;
+    background-color: #9B8055;
 }
 .fullpage-bag{
     display: flex;
@@ -79,10 +77,12 @@ section h1{
 .s1 h1{
     font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+    display: flex;
+    align-items: center;
+    /* position: absolute;
     top: 20%;
     left: 25%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, -10%); */
     background: linear-gradient(to left, purple,rgb(101, 11, 219));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -94,7 +94,7 @@ section h1{
     top: 10%;
     left: 50%;
     transform: translate(-50%, -10%);
-    background: linear-gradient(to left,rgb(243, 159, 243) purple);
+    background: linear-gradient(to left,rgb(247, 217, 217), white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
